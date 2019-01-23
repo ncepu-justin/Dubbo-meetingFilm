@@ -38,7 +38,7 @@ spring:
     name: meeting-alipay
   dubbo:
     server: true
-    registry: zookeeper://40.73.32.247:2182
+    registry: zookeeper://127.0.0.1
     protocal:
        name: dubbo
        port: 20885
