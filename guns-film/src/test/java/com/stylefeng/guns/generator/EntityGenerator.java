@@ -49,9 +49,9 @@ public class EntityGenerator {
             }
         });
         dsc.setDriverName("com.mysql.jdbc.Driver");
-        dsc.setUsername("mysql2018ncepu%e810root");
-        dsc.setPassword("Ncepu2018");
-        dsc.setUrl("jdbc:mysql://mysql2018ncepu.mysqldb.chinacloudapi.cn:3306/dubbo?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8");
+        dsc.setUsername("root");
+        dsc.setPassword("root");
+        dsc.setUrl("jdbc:mysql://yourSQLUrl:3306/dubbo?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8");
         mpg.setDataSource(dsc);
 
         // 策略配置
