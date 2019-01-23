@@ -37,14 +37,14 @@ spring:
     name: meeting-order
   dubbo:
     server: true
-    registry: zookeeper://40.73.32.247:2182
+    registry: zookeeper://127.0.0.1:2181
     protocal:
        name: dubbo
        port: 20884
   datasource:
-      url: jdbc:mysql://mysql2018ncepu.mysqldb.chinacloudapi.cn:3306/dubbo?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
-      username: mysql2018ncepu%e810root
-      password: Ncepu2018
+      url: jdbc:mysql://yourSQLUrl:3306/dubbo?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8
+      username: root
+      password: root
       filters: log4j,wall,mergeStat
 
 logging:
