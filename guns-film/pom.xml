@@ -7,7 +7,6 @@
     <artifactId>guns-film</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-
     <name>guns-film</name>
     <description>Meeting院线的影片服务</description>
 
