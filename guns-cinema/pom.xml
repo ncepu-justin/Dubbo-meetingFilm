@@ -10,7 +10,6 @@
 
     <name>guns-cinema</name>
     <description>Meeting院线的影院服务</description>
-
     <parent>
         <groupId>com.stylefeng</groupId>
         <artifactId>guns-parent</artifactId>
